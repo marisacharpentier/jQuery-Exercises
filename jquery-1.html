@@ -39,4 +39,16 @@ function swapHeadlines() {
   $('h1').text(two);
   $('h2').text(one);
 }
+function noSubhed () {
+  var x = $('h2').fadeOut();
+  var y = $('h3').fadeOut();
+  return x;
+  return y;
+}
+function undo () {
+  var undo1 = $('h2').show();
+  var undo2 = $('h3').show();
+  return undo1;
+  return undo2;
+}
 </script>
