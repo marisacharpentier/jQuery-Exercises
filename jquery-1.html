@@ -51,4 +51,15 @@ function undo () {
   return undo1;
   return undo2;
 }
+function highlightByline () {
+  $('p.byline').addClass('error');
+}
+function unHighlightByline () {
+  $('p.byline').removeClass('error');
+}
 </script>
+<style>
+.error {
+  background-color: yellow;
+}
+</style>
