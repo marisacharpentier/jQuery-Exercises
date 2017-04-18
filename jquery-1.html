@@ -27,4 +27,16 @@ function changedHeadlines () {
   return two;
   return three;
 }
+function logHeadlines () {
+  var a = $('h1').text();
+  var b = $('h2').text();
+  console.log(a);
+  console.log(b);
+}
+function swapHeadlines() {
+  var one = $('h1').text();
+  var two = $('h2').text();
+  $('h1').text(two);
+  $('h2').text(one);
+}
 </script>
